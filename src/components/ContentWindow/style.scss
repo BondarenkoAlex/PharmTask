@@ -1,0 +1,18 @@
+:local(.dialogWindow) {
+  width: 600px;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 24px 24px 0 rgba(0, 0, 0, 0.24), 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  margin: 0 auto;
+  padding: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  max-height: 80%;
+  overflow: auto;
+
+  header {
+    position: relative;
+    text-transform: uppercase;
+  }
+}
+
